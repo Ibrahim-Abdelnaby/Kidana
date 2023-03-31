@@ -16,7 +16,7 @@ html {
 }
 
 :root {
-  --main-color: #2a622e;
+  --main-color: #c69934;
   --black-color: #222222;
   --white-color: #ffffff;
 }
@@ -27,6 +27,14 @@ body {
   color: var(--black-color);
 }
 
+main {
+  header {
+    a {
+      color: var(--main-color);
+    }
+  }
+}
+
 h1,
 h2,
 h3,
@@ -35,6 +43,10 @@ h5,
 h6,
 p {
   margin: 0;
+}
+
+h3 {
+  font-size: 1rem;
 }
 
 .container {
@@ -48,7 +60,7 @@ p {
     justify-content: center;
     align-items: center;
     gap: 100px;
-    background: linear-gradient(#4e7b38, #174724 75%);
+    background: linear-gradient(#c69934, #372a0e);
     height: 100vh;
 
     img {
@@ -178,7 +190,7 @@ header {
   -moz-border-radius: 10px;
   -ms-border-radius: 10px;
   -o-border-radius: 10px;
-  box-shadow: 0 3px 10px rgba($color: #4e7b38, $alpha: 0.05);
+  box-shadow: 0 3px 10px rgba($color: #372a0e, $alpha: 0.1);
   transition: 0.3s ease-in;
   -webkit-transition: 0.3s ease-in;
   -moz-transition: 0.3s ease-in;
@@ -186,7 +198,7 @@ header {
   -o-transition: 0.3s ease-in;
 
   &:hover {
-    box-shadow: 0 3px 50px rgba($color: #4e7b38, $alpha: 0.1);
+    box-shadow: 0 3px 50px rgba($color: #372a0e, $alpha: 0.1);
   }
 
   img {

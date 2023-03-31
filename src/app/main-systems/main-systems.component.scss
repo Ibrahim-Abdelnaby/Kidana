@@ -8,15 +8,23 @@
     align-items: center;
     gap: 5%;
 
+    header {
+      position: relative;
+      bottom: 150px;
+      a {
+        color: var(--main-color);
+      }
+    }
+
     .cards {
       display: flex;
-      flex-direction: row-reverse;
+      // flex-direction: row-reverse;
       justify-content: center;
       align-items: center;
       gap: 5%;
 
       .survey {
-        box-shadow: 0 3px 50px rgba($color: #2a622e, $alpha: 0.1);
+        box-shadow: 0 3px 50px rgba($color: #372a0e, $alpha: 0.1);
       }
     }
   }
@@ -27,9 +35,9 @@
   .container {
     .systems {
       gap: 30px;
-
       header {
         margin: 20px 0 10px;
+        top: 1px;
       }
 
       .cards {
