@@ -19,6 +19,9 @@ import { SystemsOneComponent } from './systems-one/systems-one.component';
 import { HomeOneComponent } from './home-one/home-one.component';
 import { HomeTowComponent } from './home-tow/home-tow.component';
 import { SystemTowComponent } from './system-tow/system-tow.component';
+import { HousingQualityComponent } from './housing-quality/housing-quality.component';
+import { E3ashaComponent } from './e3asha/e3asha.component';
+import { GaheziaComponent } from './gahezia/gahezia.component';
 
 @NgModule({
   declarations: [
@@ -39,6 +42,9 @@ import { SystemTowComponent } from './system-tow/system-tow.component';
     HomeOneComponent,
     HomeTowComponent,
     SystemTowComponent,
+    HousingQualityComponent,
+    E3ashaComponent,
+    GaheziaComponent,
   ],
   imports: [BrowserModule, AppRoutingModule],
   providers: [],

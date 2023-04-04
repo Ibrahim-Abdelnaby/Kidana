@@ -9,6 +9,9 @@
     gap: 5%;
 
     header {
+      position: relative;
+      bottom: 100px;
+
       a {
         color: var(--main-color);
       }
@@ -16,7 +19,7 @@
 
     .cards {
       display: flex;
-      flex-direction: row-reverse;
+      // flex-direction: row-reverse;
       justify-content: center;
       align-items: center;
       gap: 5%;
@@ -36,6 +39,7 @@
 
       header {
         margin: 20px 0 10px;
+        bottom: 1px;
       }
 
       .cards {

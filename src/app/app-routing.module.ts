@@ -16,6 +16,9 @@ import { SystemsOneComponent } from './systems-one/systems-one.component';
 import { HomeOneComponent } from './home-one/home-one.component';
 import { HomeTowComponent } from './home-tow/home-tow.component';
 import { SystemTowComponent } from './system-tow/system-tow.component';
+import { HousingQualityComponent } from './housing-quality/housing-quality.component';
+import { E3ashaComponent } from './e3asha/e3asha.component';
+import { GaheziaComponent } from './gahezia/gahezia.component';
 
 const routes: Routes = [
   { path: 'home', component: HomeComponent },
@@ -36,6 +39,9 @@ const routes: Routes = [
   { path: 'home-1', component: HomeOneComponent },
   { path: 'home-2', component: HomeTowComponent },
   { path: 'systems-2', component: SystemTowComponent },
+  { path: 'housing-quality', component: HousingQualityComponent },
+  { path: 'e3asha', component: E3ashaComponent },
+  { path: 'gahezia', component: GaheziaComponent },
   { path: '', component: TableComponent },
 ];
 
